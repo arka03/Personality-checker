@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    #jstext {
+  text-align: center;
+  font-size: 90px;
+}
+    }
+    </style>
+    <script>
+            function personality() {
+               var month;
+               month = document.getElementById("month").value;
+               if (month==1){
+                   document.write('<p id="jstext">' + "January: serious, reserved, motivated, attentive, sociable, stubborn" + '</p>');
+               } else if (month==2){
+                   document.write('<p id="jstext">' + "February: realistic, intelligent, attractive, Temperamental, shy, humble, quiet, honest, loyal, smart" + '</p>');
+               } else if (month==3){
+                   document.write('<p id="jstext">' + "March: attractive, reserved, shy, secretive, honest, sensitive, generous, understanding" + '</p>');
+               } else if (month==4){
+                   document.write('<p id="jstext">' + "April: active, dynamic, decisive, emotional" + '</p>');
+               } else if (month==5){
+                   document.write('<p id="jstext">' + "May: stubborn, motivated, understanding, hardworking, beautiful, strong-willed, hard-hearted" + '</p>');
+               } else if (month==6){
+                   document.write('<p id="jstext">' + "June: polite, kind, sensitive, stubborn, temperamental, humourous, talkative, daydreamer, friendly" + '</p>');
+               } else if (month==7){
+                   document.write('<p id="jstext">' + "July: funny, secretive, quiet, honest, friendly, temperamental, tactful, moody, witty, caring" + '</p>');
+               } else if (month==8){
+                   document.write('<p id="jstext">' + "August: humorous, romantic, friendly, sensitive, generous, egotistic, caring, fearless, brave" + '</p>');
+               } else if (month==9){
+                   document.write('<p id="jstext">' + "September: careful, quiet, stubborn, calm, sympathetic, understanding" + '</p>');
+               } else if (month==10){
+                   document.write('<p id="jstext">' + "October: loyal, opinionated, fair, emotional, honest, decisive" + '</p>');
+               } else if (month==11){
+                   document.write('<p id="jstext">' + "Novemeber: psychic, hardworking, romantic, sensitive, empathetic, dynamic" + '</p>');
+               } else if (month==12){
+                   document.write('<p id="jstext">' + "December: trustworthy, patriotic, interactive, generous, honest" + '</p>');
+               }
+            }
+        
+        </script>
+    <title>Personality checker</title>
+
+</head>
+<body>
+    <h1>Find your Horoscope</h1>
+     
+        Select your month: <input type= "number" id="month" name="Month number" min="1" max="12"required>
+        <button onclick="personality()" >Submit </button>
+
+    
+</body>
+</html>
